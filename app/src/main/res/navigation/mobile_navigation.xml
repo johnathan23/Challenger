@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/allMoviesFragment">
+
+    <fragment
+        android:id="@+id/allMoviesFragment"
+        android:name="com.johnathan.challenger.home.AllMoviesFragment"
+        android:label="All - Movies"
+        tools:layout="@layout/fragment_all_films" />
+
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.johnathan.challenger.movies.MoviesFragment"
+        android:label="Movies"
+        tools:layout="@layout/fragment_movies" />
+
+    <fragment
+        android:id="@+id/seriesFragment"
+        android:name="com.johnathan.challenger.series.SeriesFragment"
+        android:label="Series"
+        tools:layout="@layout/fragment_series" />
+</navigation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ********** Text Size ********** -->
+    <dimen name="text.20">20sp</dimen>
+
+    <!-- ********** Line ********** -->
+    <integer name="line.1">1</integer>
+
+    <!-- ********** Elevation ********** -->
+    <dimen name="elevation.8">8dp</dimen>
+
+    <!-- ********** Corner ********** -->
+    <dimen name="corner.5">5dp</dimen>
+
+    <!-- ********** Margin ********** -->
+    <dimen name="margin.8">8dp</dimen>
+
+    <!-- ********** Padding ********** -->
+
+    <!-- ********** Size ********** -->
+    <dimen name="size.0">0dp</dimen>
+    <dimen name="size.40">40dp</dimen>
+    <dimen name="size.60">60dp</dimen>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- *** Toolbar Style *** -->
+    <style name="Toolbar" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!-- *** TextView Style *** -->
+    <style name="TextViewBase">
+        <item name="fontFamily">@font/avenir_next_medium</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="maxLines">@integer/line.1</item>
+    </style>
+
+    <style name="TextViewBase.Toolbar">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text.20</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginStart">@dimen/margin.8</item>
+    </style>
+
+    <style name="TextViewBase.Black">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/text.20</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- *** ImageView Style *** -->
+    <style name="ImageView">
+        <item name="android:layout_width">@dimen/size.40</item>
+        <item name="android:layout_height">@dimen/size.40</item>
+    </style>
+
+</resources>
